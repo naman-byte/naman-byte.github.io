@@ -1,0 +1,41 @@
+body{background-color: black;}
+#topheader{background-color:darkgrey;
+border-bottom: 1px solid silver;}
+#topheader a{
+color:black;
+font-weight: 600;
+font-size: 0.89rem;
+}
+.my_dp{box-shadow:2px 2px 2px 2px black;
+transition: all 1s;}
+.my_dp:hover{transform:scale(1.14);}
+.my_dv{box-shadow:2px 2px 2px 5px white;}
+.h{color:white; 
+text-shadow:1px 1px aqua; 
+font-style:italic;}
+.det{
+color:white;
+}
+.container-fluid{
+padding-left:0;
+padding-right:0;
+}
+.nav ul li a{
+font-weight: 600;
+}
+.full-footer{
+background-color: #2c3e50;
+position: absolute;
+width:100%;
+padding-top: 10px;
+}
+.topfooter p,h3{
+color:white;
+}
+.topfooter a{color:white;}
+.bottom-footer{
+color:white;
+background-color:black;
+text-align:center;
+}
+.certificates:hover{color:red;}

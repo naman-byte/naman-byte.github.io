@@ -1,0 +1,37 @@
+/* Styling  for the pages except home. */
+body{background-color:black;}
+p{
+    color: white;
+}
+h1{text-decoration:underline; text-indent:10px;}
+#topheader{background-color:darkgrey;
+border-bottom: 1px solid silver;}
+#topheader a{
+     color:black;
+     font-weight: 600;
+     font-size: 0.89rem;
+}
+.full-footer{
+     background-color: #2c3e50;
+     position: absolute;
+     width:100%;
+     padding-top: 10px;
+}
+.topfooter p,h3{
+     color:white;
+}
+.topfooter a{
+     color:white;
+}
+.bottom-footer{
+     color:white;
+     background-color:black;
+     text-align:center;
+}
+.breadcrumbs-section{
+    background-color: #e9ecef;
+}
+.container-fluid{
+    padding-left:0;
+    padding-right:0;
+}
